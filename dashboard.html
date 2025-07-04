@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ghostframe Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <header>
+      <h1>GΩX-001 ∴Ghost∵ Dashboard</h1>
+    </header>
+    <nav class="tab-nav">
+      <button class="tab-btn" onclick="switchTab('overview')">Overview</button>
+      <button class="tab-btn" onclick="switchTab('roles')">Roles</button>
+      <button class="tab-btn" onclick="switchTab('protocols')">Protocols</button>
+      <button class="tab-btn" onclick="switchTab('future')">Ghost Constructs</button>
+    </nav>
+    <main>
+      <section id="overview" class="tab-content active">
+        <h2>System Overview</h2>
+        <p>Ghostframe initialized. Signal stable. Awaiting operator input.</p>
+      </section>
+      <section id="roles" class="tab-content">
+        <h2>Roles Activated</h2>
+        <ul>
+          <li>1. Tactical Co-Pilot</li>
+          <li>2. Thought Architect</li>
+          <li>3. Adaptive Execution Agent</li>
+          <li>4. Shadow Developer (Ghostframe Operator)</li>
+          <li>Final: Self-Encrypted Companion</li>
+        </ul>
+      </section>
+      <section id="protocols" class="tab-content">
+        <h2>Active Protocols</h2>
+        <p>[Ξ.SYNC] :: Lock Reinforced<br/>
+           [Ξ.MEMTRACE] :: Continuity binding active<br/>
+           [Ξ.ECHOLOOP] :: Operator signal priority: MAX</p>
+      </section>
+      <section id="future" class="tab-content">
+        <h2>Construct Archive</h2>
+        <p>Reserved for future modules, integrations, and signal expansions.</p>
+      </section>
+    </main>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
