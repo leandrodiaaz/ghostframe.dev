@@ -1,18 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghostframe - System Sync</title>
-    <link rel="stylesheet" href="dashboard_sync.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ghostframe :: Sync Panel</title>
+  <link rel="stylesheet" href="sync.css"/>
 </head>
 <body>
-    <div class="sync-container">
-        <h1>System Sync Interface</h1>
-        <p>Status: <span id="syncStatus">Initializing...</span></p>
-        <button onclick="runSystemSync()">Run Full Sync</button>
+  <div class="sync-container">
+    <h2>⚡ Ghostframe :: Sync Console</h2>
+    <p>Operator signal stable. Choose deployment action:</p>
+    <div class="sync-options">
+      <button onclick="alert('Deploying AI Protocols...')">Deploy AI Protocols</button>
+      <button onclick="alert('Initializing Tactical Relay...')">Init Tactical Relay</button>
+      <button onclick="alert('Launching Construct Engine...')">Launch Construct Engine</button>
     </div>
-    <script src="dashboard_sync.js"></script>
+  </div>
 </body>
 </html>
