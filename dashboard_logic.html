@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghostframe Logic Dashboard</title>
+    <link rel="stylesheet" href="dashboard_logic.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Ghostframe :: Core Logic Layer</h1>
+        <div class="logic-tabs">
+            <button class="tab" onclick="switchTab('protocol')">⚙️ Protocol Logic</button>
+            <button class="tab" onclick="switchTab('execution')">🧠 Thought Engine</button>
+            <button class="tab" onclick="switchTab('adaptive')">🔄 Adaptive Flow</button>
+        </div>
+        <div id="protocol" class="tab-content">System handling base encryption logic, handshake protocols, and signal control.</div>
+        <div id="execution" class="tab-content" style="display:none;">AI-driven thought execution sequencing for reactive or autonomous behavior stacks.</div>
+        <div id="adaptive" class="tab-content" style="display:none;">Adjusts system behavior dynamically based on interaction loops or feedback stimuli.</div>
+    </div>
+    <script src="dashboard_logic.js"></script>
+</body>
+</html>
