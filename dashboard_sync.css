@@ -1,0 +1,18 @@
+
+/* Styling for System Sync Module */
+.sync-container {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+.sync-container h1 {
+    color: #39ff14;
+}
+.sync-container button {
+    background-color: #222;
+    color: #39ff14;
+    border: 2px solid #39ff14;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
