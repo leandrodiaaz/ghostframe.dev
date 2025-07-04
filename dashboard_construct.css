@@ -1,0 +1,47 @@
+
+body {
+  background: #0f0f0f;
+  color: #00ffcc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.construct-container {
+  max-width: 800px;
+  margin: auto;
+}
+.construct-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.construct-card {
+  border: 1px solid #00ffcc;
+  background-color: rgba(0, 255, 204, 0.05);
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.construct-card:hover {
+  background-color: rgba(0, 255, 204, 0.15);
+}
+.construct-form {
+  margin-top: 20px;
+}
+.construct-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+}
+.construct-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #00ffcc;
+  color: #0f0f0f;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
