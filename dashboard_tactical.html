@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ghostframe :: Tactical Relay</title>
+  <link rel="stylesheet" href="dashboard_tactical.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📡 Ghostframe // Tactical Relay</h1>
+    <p class="status">Connection integrity stable. Tactical channels awaiting input.</p>
+    <div class="relay-actions">
+      <button onclick="initRelay()">Initiate Relay Sequence</button>
+      <button onclick="scanChannels()">Scan Tactical Frequencies</button>
+      <button onclick="linkNetwork()">Link Ghost Comms</button>
+    </div>
+    <div id="tacticalLog" class="log-box">
+      <strong>Tactical Log:</strong>
+      <ul id="logList"></ul>
+    </div>
+  </div>
+  <script src="dashboard_tactical.js"></script>
+</body>
+</html>

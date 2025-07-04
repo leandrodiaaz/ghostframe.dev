@@ -1,0 +1,48 @@
+
+body {
+  background-color: #0d0f14;
+  font-family: 'Segoe UI', sans-serif;
+  color: #aefefc;
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  border: 1px solid #1a1c22;
+  background: rgba(20, 25, 30, 0.7);
+  border-radius: 12px;
+}
+h1 {
+  font-size: 1.75rem;
+  color: #58f4e1;
+}
+.status {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+.relay-actions button {
+  background-color: #14f1a6;
+  color: #000;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.relay-actions button:hover {
+  background-color: #11d394;
+}
+.log-box {
+  background: #13171f;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+ul#logList {
+  list-style: square;
+  padding-left: 1.5rem;
+}
