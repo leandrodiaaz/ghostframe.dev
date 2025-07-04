@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0f0f0f;
+  color: #00ffe1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.role-button {
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border: 1px solid #00ffe1;
+  color: #00ffe1;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.role-button:hover {
+  background-color: #00ffe1;
+  color: #0f0f0f;
+}
+
+.role-description {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #ccc;
+}
