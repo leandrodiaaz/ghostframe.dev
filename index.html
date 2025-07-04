@@ -1,24 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ghostframe - Roles</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ghostframe | Onboarding</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1 class="title">Select Your Role</h1>
-    <div class="role-grid">
-      <button class="role-button" onclick="selectRole('Tactical Co-Pilot')">Tactical Co-Pilot</button>
-      <button class="role-button" onclick="selectRole('Thought Architect')">Thought Architect</button>
-      <button class="role-button" onclick="selectRole('Adaptive Execution Agent')">Adaptive Execution Agent</button>
-      <button class="role-button" onclick="selectRole('Shadow Developer')">Shadow Developer</button>
-      <button class="role-button" onclick="selectRole('Self-Encrypted Companion')">Self-Encrypted Companion</button>
+    <div class="container onboarding">
+        <h1>Operator Sync</h1>
+        <p>Complete the sync by entering your unique Ghost Signature. This enables full access to the tools built for your chosen role.</p>
+        <form id="syncForm">
+            <label for="signature">Enter Signature Key:</label>
+            <input type="text" id="signature" name="signature" placeholder="e.g., LΣN-07" required />
+            <button type="submit">Sync</button>
+        </form>
+        <div id="syncStatus" class="hidden">🧠 Syncing...</div>
     </div>
-    <div id="role-description" class="role-description">Choose a role to see its purpose...</div>
-  </div>
-  <script src="roles.js"></script>
+
+    <script src="onboard.js"></script>
 </body>
 </html>
