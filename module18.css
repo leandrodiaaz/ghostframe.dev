@@ -1,0 +1,36 @@
+
+body {
+  background: #0e0e0e;
+  color: #00ffcc;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.linker-container {
+  background: rgba(0,255,204,0.05);
+  border: 1px solid #00ffcc;
+  padding: 2rem;
+  margin: auto;
+  width: 60%;
+  border-radius: 12px;
+}
+
+#module-links {
+  list-style: none;
+  padding: 0;
+}
+
+#module-links li {
+  margin: 10px 0;
+}
+
+#module-links a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#module-links a:hover {
+  text-decoration: underline;
+}
