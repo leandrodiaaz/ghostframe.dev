@@ -1,0 +1,33 @@
+
+body {
+  background-color: #0e0e10;
+  color: #e6ffe6;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.echo-container {
+  text-align: center;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.echo-box {
+  background-color: #1a1a1d;
+  border: 1px solid #00ff88;
+  padding: 20px;
+  border-radius: 10px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #00ff88;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
